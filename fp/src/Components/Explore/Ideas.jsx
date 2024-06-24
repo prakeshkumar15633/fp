@@ -7,7 +7,7 @@ const IdeasList = () => {
     const [regularIdeas, setRegularIdeas] = useState([]);
     axios.defaults.withCredentials = true;
     async function func() {
-        let resObj = await axios.get('https://fp-two.vercel.app/admin-api/explore')
+        let resObj = await axios.get('http://localhost:4000/explore')
         if (resObj != null) {
             setIdeas(resObj.data.data.ideas)
         }
