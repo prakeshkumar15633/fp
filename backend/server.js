@@ -12,6 +12,10 @@ app.use(cors({
     credentials: true
 }))
 
+app.get('/',(req,res)=>{
+    res.json("Hello")
+})
+
 app.use(exp.static(path.join(__dirname,'../fp/build')))
 app.use(exp.json())
 
