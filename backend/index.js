@@ -6,14 +6,14 @@ const mongoClient=require('mongodb').MongoClient
 const path=require('path')
 const { config } = require('dotenv')
 
-// app.use(cors({
-//     origin: ["https://fp-frontend-indol.vercel.app/"],
-//     methods: ["POST","GET"],
-//     credentials: true
-// }))
+app.use(cors({
+    origin: ["https://fp-frontend-indol.vercel.app/"],
+    methods: ["POST","GET"],
+    credentials: true
+}))
 
-app.use(exp.static(path.join(__dirname,'../fp/build')))
-app.use(exp.json())
+// app.use(exp.static(path.join(__dirname,'../fp/build')))
+// app.use(exp.json())
 
 let hackathonCollection
 let exploreCollection
@@ -188,9 +188,9 @@ app.post('/explore/alumini',async(req,res)=>{
     }
 })
 
-app.use((req,res,next)=>{
-    res.sendFile(path.join(__dirname,'../frontend/build/index.html'))
-})
+// app.use((req,res,next)=>{
+//     res.sendFile(path.join(__dirname,'../frontend/build/index.html'))
+// })
 
 app.use((err,req,res,next)=>{
     res.send({
