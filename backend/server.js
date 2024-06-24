@@ -7,13 +7,13 @@ const path=require('path')
 const { config } = require('dotenv')
 
 app.use(cors({
-    origin: ["https://fp-two.vercel.app/"],
+    origin: ["https://fp2-mgdr0flqt-rakesh-kumars-projects-d4a50df6.vercel.app/"],
     methods: ["POST","GET"],
     credentials: true
 }))
 
 app.get('/',(req,res)=>{
-    res.json("Hello")
+    res.send("Hello")
 })
 
 app.use(exp.static(path.join(__dirname,'../fp/build')))
