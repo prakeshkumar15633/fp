@@ -12,12 +12,12 @@ app.use(cors({
     credentials: true
 }))
 
-app.get('/',(req,res)=>{
+app.use('/',(req,res)=>{
     res.send("Hello")
 })
 
-app.use(exp.static(path.join(__dirname,'../fp/build')))
-app.use(exp.json())
+// app.use(exp.static(path.join(__dirname,'../fp/build')))
+// app.use(exp.json())
 
 mongoClient.connect(process.env.DB_URL)
 .then((client)=>{
@@ -37,9 +37,9 @@ const adminApp=require('./adminApi')
 
 app.use('/admin-api',adminApp)
 
-app.use((req,res,next)=>{
-    res.sendFile(path.join(__dirname,'../frontend/build/index.html'))
-})
+// app.use((req,res,next)=>{
+//     res.sendFile(path.join(__dirname,'../frontend/build/index.html'))
+// })
 
 app.use((err,req,res,next)=>{
     res.send({
