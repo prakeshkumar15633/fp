@@ -29,6 +29,10 @@ mongoClient.connect(process.env.DB_URL)
 })
 .catch((err)=>console.log('Error in db connection',err))
 
+app.use('/',(req,res)=>{
+    res.send("hello")
+})
+
 const adminApp=require('./adminApi')
 
 app.use('/admin-api',adminApp)
