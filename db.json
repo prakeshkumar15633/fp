@@ -1,0 +1,546 @@
+{
+    "hackathons": {
+        "past": [
+            {
+                "name": "VNR Hackathon 2023",
+                "date": "2023-05-15 to 2023-05-16",
+                "location": "Hyderabad, Telangana, India",
+                "venue": "VNR Vignana Jyothi Institute of Engineering and Technology",
+                "type": "Web Development",
+                "website": "https://vnrvjiet.ac.in/hackathon2023/",
+                "winners": [
+                    {
+                        "team_name": "Code Wizards",
+                        "project_name": "Smart Waste Management System",
+                        "idea": "An IoT-based system to optimize waste collection routes.",
+                        "members": [
+                            "Alice Johnson",
+                            "Bob Smith",
+                            "Charlie Brown"
+                        ]
+                    },
+                    {
+                        "team_name": "Pixel Crafters",
+                        "project_name": "Virtual Museum Experience",
+                        "idea": "A VR application to explore museums from home.",
+                        "members": [
+                            "Diana Prince",
+                            "Eve Adams",
+                            "Frank Martin"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "VNR Tech Fest 2022",
+                "date": "2022-11-10 to 2022-11-12",
+                "location": "Hyderabad, Telangana, India",
+                "venue": "VNR Vignana Jyothi Institute of Engineering and Technology",
+                "type": "AI and Blockchain",
+                "website": "https://vnrvjiet.ac.in/techfest2022/",
+                "winners": [
+                    {
+                        "team_name": "Binary Innovators",
+                        "project_name": "AI-driven Traffic Management",
+                        "idea": "An AI system to optimize traffic flow in urban areas.",
+                        "members": [
+                            "George Washington",
+                            "Hannah Lee",
+                            "Ibrahim Khan"
+                        ]
+                    },
+                    {
+                        "team_name": "Cyber Sentinels",
+                        "project_name": "Blockchain-based Certifications",
+                        "idea": "Using blockchain for secure certification issuance.",
+                        "members": [
+                            "Jack White",
+                            "Katherine Green",
+                            "Louis Black"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "VNR Designathon 2021",
+                "date": "2021-08-20 to 2021-08-21",
+                "location": "Hyderabad, Telangana, India",
+                "venue": "VNR Vignana Jyothi Institute of Engineering and Technology",
+                "type": "Design",
+                "website": "https://vnrvjiet.ac.in/designathon2021/",
+                "winners": [
+                    {
+                        "team_name": "Creative Minds",
+                        "project_name": "Interactive UI/UX for Education",
+                        "idea": "An interactive platform for online education with engaging UI/UX.",
+                        "members": [
+                            "Olivia Brown",
+                            "Peter Parker",
+                            "Quinn Carter"
+                        ]
+                    },
+                    {
+                        "team_name": "Pixel Perfect",
+                        "project_name": "Virtual Reality Art Gallery",
+                        "idea": "A VR experience showcasing artworks from around the world.",
+                        "members": [
+                            "Rachel Adams",
+                            "Samuel Wilson",
+                            "Tina Turner"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "current": [
+            {
+                "name": "VNR CodeFest 2024",
+                "date": "2024-03-20 to 2024-03-22",
+                "location": "Hyderabad, Telangana, India",
+                "venue": "VNR Vignana Jyothi Institute of Engineering and Technology",
+                "type": "Web Development",
+                "website": "https://vnrvjiet.ac.in/codefest2024/",
+                "prize_pool": "₹5,00,000"
+            },
+            {
+                "name": "VNR AIthon 2024",
+                "date": "2024-04-15 to 2024-04-16",
+                "location": "Hyderabad, Telangana, India",
+                "venue": "VNR Vignana Jyothi Institute of Engineering and Technology",
+                "type": "AI and Machine Learning",
+                "website": "https://vnrvjiet.ac.in/aithon2024/",
+                "prize_pool": "₹3,00,000"
+            },
+            {
+                "name": "VNR App Expo 2024",
+                "date": "2024-05-18 to 2024-05-19",
+                "location": "Hyderabad, Telangana, India",
+                "venue": "VNR Vignana Jyothi Institute of Engineering and Technology",
+                "type": "Mobile App Development",
+                "website": "https://vnrvjiet.ac.in/appexpo2024/",
+                "prize_pool": "₹2,00,000"
+            }
+        ],
+        "upcoming": [
+            {
+                "name": "VNR Innovate 2024",
+                "date": "2024-09-05 to 2024-09-07",
+                "location": "Hyderabad, Telangana, India",
+                "venue": "VNR Vignana Jyothi Institute of Engineering and Technology",
+                "type": "Innovation",
+                "website": "https://vnrvjiet.ac.in/innovate2024/",
+                "prize_pool": "₹8,00,000"
+            },
+            {
+                "name": "VNR Cyberthon 2025",
+                "date": "2025-01-10 to 2025-01-12",
+                "location": "Hyderabad, Telangana, India",
+                "venue": "VNR Vignana Jyothi Institute of Engineering and Technology",
+                "type": "Cybersecurity",
+                "website": "https://vnrvjiet.ac.in/cyberthon2025/",
+                "prize_pool": "₹6,00,000"
+            },
+            {
+                "name": "VNR GreenTech Challenge 2025",
+                "date": "2025-03-22 to 2025-03-24",
+                "location": "Hyderabad, Telangana, India",
+                "venue": "VNR Vignana Jyothi Institute of Engineering and Technology",
+                "type": "Green Technology",
+                "website": "https://vnrvjiet.ac.in/greentech2025/",
+                "prize_pool": "₹4,00,000"
+            }
+        ]
+    },
+    "explore": {
+        "ideas": [
+            {
+                "title": "Smart Waste Management System",
+                "abstract": "An IoT-based system to optimize waste collection routes.",
+                "domain": "Internet of Things (IoT)",
+                "useful_features": [
+                    "Real-time waste bin monitoring",
+                    "Route optimization algorithms",
+                    "Integration with municipal waste management systems"
+                ],
+                "possible_implementations": [
+                    "Deploy IoT sensors for waste level monitoring",
+                    "Develop machine learning models for route optimization",
+                    "Create a mobile app for waste collection operators"
+                ],
+                "is_hackathon_winner": true
+            },
+            {
+                "title": "Virtual Museum Experience",
+                "abstract": "A VR application to explore museums from home.",
+                "domain": "Virtual Reality (VR)",
+                "useful_features": [
+                    "High-fidelity virtual museum environments",
+                    "Interactive exhibits and guided tours",
+                    "Integration with VR headsets for immersive experience"
+                ],
+                "possible_implementations": [
+                    "Develop VR content using Unity or Unreal Engine",
+                    "Collaborate with museums for content licensing",
+                    "Create a web platform for remote access"
+                ],
+                "is_hackathon_winner": true
+            },
+            {
+                "title": "AI-driven Traffic Management",
+                "abstract": "An AI system to optimize traffic flow in urban areas.",
+                "domain": "Artificial Intelligence (AI)",
+                "useful_features": [
+                    "Real-time traffic monitoring and analysis",
+                    "AI algorithms for traffic prediction",
+                    "Integration with smart city infrastructure"
+                ],
+                "possible_implementations": [
+                    "Deploy AI models on edge devices for real-time processing",
+                    "Integrate with existing traffic control systems",
+                    "Develop a dashboard for city planners and traffic authorities"
+                ],
+                "is_hackathon_winner": true
+            },
+            {
+                "title": "Blockchain-based Certifications",
+                "abstract": "Using blockchain for secure certification issuance.",
+                "domain": "Blockchain Technology",
+                "useful_features": [
+                    "Immutable record of certifications",
+                    "Decentralized verification process",
+                    "Integration with educational institutions and employers"
+                ],
+                "possible_implementations": [
+                    "Implement smart contracts on a blockchain platform",
+                    "Create a user-friendly interface for certificate issuance and verification",
+                    "Collaborate with educational institutions for pilot programs"
+                ],
+                "is_hackathon_winner": true
+            },
+            {
+                "title": "Interactive UI/UX for Education",
+                "abstract": "An interactive platform for online education with engaging UI/UX.",
+                "domain": "UI/UX Design",
+                "useful_features": [
+                    "User-friendly interface for content discovery",
+                    "Interactive learning modules and assessments",
+                    "Personalized recommendations based on user progress"
+                ],
+                "possible_implementations": [
+                    "Design intuitive navigation and layout using UI/UX best practices",
+                    "Implement gamification elements to enhance engagement",
+                    "Integrate with learning management systems (LMS)"
+                ],
+                "is_hackathon_winner": true
+            },
+            {
+                "title": "Virtual Reality Art Gallery",
+                "abstract": "A VR experience showcasing artworks from around the world.",
+                "domain": "Virtual Reality (VR)",
+                "useful_features": [
+                    "Virtual gallery spaces for art exhibitions",
+                    "Curated collections and artist profiles",
+                    "Interactive tools for exploring artworks"
+                ],
+                "possible_implementations": [
+                    "Develop high-resolution 3D models of artworks",
+                    "Collaborate with art institutions for content curation",
+                    "Implement social sharing features for art enthusiasts"
+                ],
+                "is_hackathon_winner": true
+            },
+            {
+                "title": "AI-powered Personalized Learning Platform",
+                "abstract": "Build an AI-powered platform that delivers personalized learning experiences by analyzing user behavior and adapting content dynamically.",
+                "domain": "Artificial Intelligence (AI)",
+                "useful_features": [
+                    "Machine Learning algorithms for user behavior analysis",
+                    "Adaptive learning paths based on individual progress",
+                    "Integration with educational content providers"
+                ],
+                "possible_implementations": [
+                    "Develop recommendation systems using collaborative filtering",
+                    "Utilize deep learning models for content understanding",
+                    "Create mobile and web interfaces for seamless access"
+                ],
+                "is_hackathon_winner": false
+            },
+            {
+                "title": "Smart Home Energy Management System",
+                "abstract": "Design a system using IoT and AI to optimize energy consumption in smart homes, reducing costs and environmental impact.",
+                "domain": "Internet of Things (IoT)",
+                "useful_features": [
+                    "Real-time monitoring of energy usage",
+                    "Predictive analytics for energy demand forecasting",
+                    "Integration with smart devices for automated control"
+                ],
+                "possible_implementations": [
+                    "Deploy sensors for data collection on energy usage",
+                    "Develop algorithms for energy load balancing",
+                    "Create a mobile app for user control and monitoring"
+                ],
+                "is_hackathon_winner": false
+            },
+            {
+                "title": "Decentralized Healthcare Records on Blockchain",
+                "abstract": "Implement a blockchain-based system for storing and managing healthcare records securely, ensuring patient privacy and data integrity.",
+                "domain": "Blockchain Technology",
+                "useful_features": [
+                    "Immutable ledger for tamper-proof records",
+                    "Patient-controlled access permissions",
+                    "Integration with healthcare providers' systems"
+                ],
+                "possible_implementations": [
+                    "Use Hyperledger or Ethereum for blockchain development",
+                    "Implement encryption techniques for data security",
+                    "Comply with healthcare regulations and standards"
+                ],
+                "is_hackathon_winner": false
+            },
+            {
+                "title": "Augmented Reality for Remote Assistance",
+                "abstract": "Develop an augmented reality (AR) platform that enables remote experts to provide real-time guidance and support for complex tasks.",
+                "domain": "Augmented Reality (AR)",
+                "useful_features": [
+                    "Live video streaming overlaid with AR annotations",
+                    "Remote gesture recognition for interactive guidance",
+                    "Integration with IoT devices for sensor data visualization"
+                ],
+                "possible_implementations": [
+                    "Use ARKit or ARCore for mobile AR application development",
+                    "Implement computer vision algorithms for object recognition",
+                    "Integrate with existing communication platforms for seamless interaction"
+                ],
+                "is_hackathon_winner": false
+            },
+            {
+                "title": "Predictive Maintenance for Industrial Equipment",
+                "abstract": "Create a predictive maintenance system using IoT sensors and AI to detect potential failures in industrial machinery before they occur.",
+                "domain": "Internet of Things (IoT) and Artificial Intelligence (AI)",
+                "useful_features": [
+                    "Real-time monitoring of equipment health metrics",
+                    "Machine Learning models for anomaly detection",
+                    "Integration with enterprise asset management systems"
+                ],
+                "possible_implementations": [
+                    "Deploy IoT sensors for data collection on machine health",
+                    "Develop predictive models using supervised learning algorithms",
+                    "Create a dashboard for maintenance alerts and scheduling"
+                ],
+                "is_hackathon_winner": false
+            },
+            {
+                "title": "Voice-controlled Smart Assistant for Elderly Care",
+                "abstract": "Design a voice-controlled smart assistant that assists elderly individuals with daily tasks, medication reminders, and emergency alerts.",
+                "domain": "Internet of Things (IoT) and Healthcare Technology",
+                "useful_features": [
+                    "Natural Language Processing (NLP) for voice commands",
+                    "Integration with health monitoring devices",
+                    "Emergency response system with voice recognition"
+                ],
+                "possible_implementations": [
+                    "Utilize Amazon Alexa or Google Assistant SDKs",
+                    "Develop custom NLP models for healthcare-specific commands",
+                    "Connect with medical alert systems for emergency notifications"
+                ],
+                "is_hackathon_winner": false
+            },
+            {
+                "title": "Virtual Reality Therapy for Mental Health",
+                "abstract": "Create immersive virtual reality (VR) environments for therapy sessions to treat anxiety, phobias, and PTSD, providing a controlled and safe space for therapeutic interventions.",
+                "domain": "Virtual Reality (VR) and Healthcare Technology",
+                "useful_features": [
+                    "Customizable VR environments for exposure therapy",
+                    "Biofeedback sensors for real-time patient monitoring",
+                    "Interactive scenarios for cognitive behavioral therapy"
+                ],
+                "possible_implementations": [
+                    "Develop VR content using Unity or Unreal Engine",
+                    "Integrate biofeedback devices for physiological data",
+                    "Collaborate with psychologists for treatment protocols"
+                ],
+                "is_hackathon_winner": false
+            },
+            {
+                "title": "Automated Agricultural Monitoring System",
+                "abstract": "Build an automated system using IoT sensors and drones to monitor crop health, soil conditions, and weather patterns, optimizing agricultural productivity.",
+                "domain": "Internet of Things (IoT) and Agriculture Technology",
+                "useful_features": [
+                    "Remote sensing for crop monitoring",
+                    "Data-driven insights for precision agriculture",
+                    "Integration with weather forecasting APIs"
+                ],
+                "possible_implementations": [
+                    "Deploy IoT sensors and drones for data collection",
+                    "Develop machine learning models for crop disease detection",
+                    "Create a web-based dashboard for farmers to access insights"
+                ],
+                "is_hackathon_winner": false
+            },
+            {
+                "title": "Personalized Shopping Experience with AI",
+                "abstract": "Develop an AI-driven platform that offers personalized shopping recommendations, discounts, and virtual try-on experiences based on user preferences and behavior.",
+                "domain": "Artificial Intelligence (AI) and E-commerce",
+                "useful_features": [
+                    "Recommendation algorithms based on user history",
+                    "Virtual try-on technology for apparel and accessories",
+                    "Integration with social media for influencer recommendations"
+                ],
+                "possible_implementations": [
+                    "Use collaborative filtering techniques for product recommendations",
+                    "Implement augmented reality (AR) for virtual try-on",
+                    "Integrate with CRM systems for customer segmentation"
+                ],
+                "is_hackathon_winner": false
+            },
+            {
+                "title": "Blockchain-based Voting System",
+                "abstract": "Implement a secure and transparent voting system using blockchain technology to prevent fraud and ensure the integrity of electoral processes.",
+                "domain": "Blockchain Technology and Governance",
+                "useful_features": [
+                    "Immutable ledger for transparent voting records",
+                    "Decentralized consensus mechanism for validation",
+                    "Cryptographic security to protect voter anonymity"
+                ],
+                "possible_implementations": [
+                    "Develop smart contracts on a public blockchain like Ethereum",
+                    "Integrate biometric verification for voter identity",
+                    "Collaborate with government agencies for regulatory compliance"
+                ],
+                "is_hackathon_winner": false
+            }
+        ],
+        "alumini": [
+            {
+                "name": "Alice Johnson",
+                "startup_name": "SmartWaste Solutions",
+                "branch": "Computer Science",
+                "batch_year": 2018,
+                "startup_establish_date": "2019-03-15",
+                "domain": "Environmental Technology",
+                "idea_abstract": "SmartWaste Solutions provides IoT-based systems for efficient waste management, optimizing collection routes and reducing environmental impact.",
+                "partners": [
+                    "Bob Smith",
+                    "Charlie Brown"
+                ]
+            },
+            {
+                "name": "Bob Smith",
+                "startup_name": "VRify",
+                "branch": "Electrical Engineering",
+                "batch_year": 2017,
+                "startup_establish_date": "2018-06-20",
+                "domain": "Virtual Reality (VR)",
+                "idea_abstract": "VRify offers immersive virtual reality experiences for educational institutions and corporate training, enhancing engagement and learning outcomes.",
+                "partners": [
+                    "Alice Johnson",
+                    "Charlie Brown"
+                ]
+            },
+            {
+                "name": "Charlie Brown",
+                "startup_name": "EduHub",
+                "branch": "Mechanical Engineering",
+                "batch_year": 2019,
+                "startup_establish_date": "2020-01-10",
+                "domain": "Education Technology",
+                "idea_abstract": "EduHub is an online platform providing interactive learning modules and personalized educational content for K-12 students.",
+                "partners": [
+                    "Alice Johnson",
+                    "Bob Smith"
+                ]
+            },
+            {
+                "name": "Diana Prince",
+                "startup_name": "HealthTech Innovations",
+                "branch": "Biomedical Engineering",
+                "batch_year": 2016,
+                "startup_establish_date": "2017-04-28",
+                "domain": "Healthcare Technology",
+                "idea_abstract": "HealthTech Innovations develops wearable devices for remote health monitoring, helping patients manage chronic conditions.",
+                "partners": [
+                    "Steve Rogers",
+                    "Natasha Romanoff"
+                ]
+            },
+            {
+                "name": "Steve Rogers",
+                "startup_name": "Green Energy Solutions",
+                "branch": "Civil Engineering",
+                "batch_year": 2015,
+                "startup_establish_date": "2016-08-12",
+                "domain": "Renewable Energy",
+                "idea_abstract": "Green Energy Solutions specializes in renewable energy solutions, focusing on solar panel efficiency and smart grid integration.",
+                "partners": [
+                    "Tony Stark",
+                    "Bruce Banner"
+                ]
+            },
+            {
+                "name": "Natasha Romanoff",
+                "startup_name": "SecureNet",
+                "branch": "Computer Science",
+                "batch_year": 2014,
+                "startup_establish_date": "2015-02-05",
+                "domain": "Cybersecurity",
+                "idea_abstract": "SecureNet provides advanced cybersecurity solutions for businesses, including threat detection, encryption, and secure communications.",
+                "partners": [
+                    "Clint Barton",
+                    "Wanda Maximoff"
+                ]
+            },
+            {
+                "name": "Tony Stark",
+                "startup_name": "AI Dynamics",
+                "branch": "Electrical Engineering",
+                "batch_year": 2012,
+                "startup_establish_date": "2013-01-18",
+                "domain": "Artificial Intelligence",
+                "idea_abstract": "AI Dynamics develops AI-powered automation solutions for industrial processes, optimizing efficiency and reducing operational costs.",
+                "partners": [
+                    "Bruce Banner",
+                    "Thor Odinson"
+                ]
+            },
+            {
+                "name": "Bruce Banner",
+                "startup_name": "BioTech Innovations",
+                "branch": "Biotechnology",
+                "batch_year": 2013,
+                "startup_establish_date": "2014-05-22",
+                "domain": "Biomedical Technology",
+                "idea_abstract": "BioTech Innovations pioneers biotechnological advancements in personalized medicine, focusing on gene therapy and regenerative medicine.",
+                "partners": [
+                    "Tony Stark",
+                    "Steve Rogers"
+                ]
+            },
+            {
+                "name": "Clint Barton",
+                "startup_name": "AgriSmart",
+                "branch": "Agricultural Engineering",
+                "batch_year": 2011,
+                "startup_establish_date": "2012-09-08",
+                "domain": "Agricultural Technology",
+                "idea_abstract": "AgriSmart integrates IoT and AI to optimize agricultural processes, enhancing crop yields and sustainability.",
+                "partners": [
+                    "Natasha Romanoff",
+                    "Wanda Maximoff"
+                ]
+            },
+            {
+                "name": "Wanda Maximoff",
+                "startup_name": "MindTech",
+                "branch": "Psychological Engineering",
+                "batch_year": 2010,
+                "startup_establish_date": "2011-03-14",
+                "domain": "Neurotechnology",
+                "idea_abstract": "MindTech develops neurotechnological solutions for mental health monitoring and cognitive enhancement.",
+                "partners": [
+                    "Clint Barton",
+                    "Natasha Romanoff"
+                ]
+            }
+        ]
+    }
+}

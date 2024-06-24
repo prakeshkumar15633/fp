@@ -1,0 +1,374 @@
+.headeredcell {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .logoedcell {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navedcell a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .navedcell .faqedcell {
+    background-color: #000;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+  }
+  
+  .heroedcell {
+    display: flex;
+    padding: 40px;
+    background-color: #f5deb3;
+  }
+  
+  .hero-textedcell {
+    flex: 1;
+  }
+  
+  .hero-textedcell h1 {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .hero-textedcell p {
+    font-size: 16px;
+    margin: 20px 0;
+  }
+  
+  .hero-textedcell button {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .hero-imageedcell {
+    flex: 1;
+  }
+  
+  .hero-imageedcell img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  .contentedcell {
+    display: flex;
+    padding: 40px;
+  }
+  
+  .content-leftedcell, .content-rightedcell {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .featureedcell {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .featureedcell h2 {
+    font-size: 24px;
+  }
+  
+  .featureedcell ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .featureedcell ul li {
+    margin: 10px 0;
+  }
+  
+  .content-rightedcell h3 {
+    font-size: 20px;
+    color: #999;
+  }
+  
+  .content-rightedcell h2 {
+    font-size: 28px;
+    margin: 10px 0;
+  }
+  
+  .content-rightedcell p {
+    font-size: 16px;
+    margin: 20px 0;
+  }
+  
+  .content-rightedcell button {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .containeredcell {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem; /* Adjust the gap between items as needed */
+}
+.containeredcell div {
+    flex: 1;
+    cursor: pointer;
+    transition: flex 0.3s ease;
+}
+.containeredcell div:hover {
+    flex: 3;
+}
+.content-2-rightedcell{
+  background-color: #f5deb3;
+  border-radius: 5px;
+}
+/* ServicePage.css */
+
+.buttonedcell {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  background-color: #785a26; /* Primary button color */
+  border: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.buttonedcell:hover {
+  background-color: #d2bd53; /* Darker shade of primary color on hover */
+}
+
+.content-2edcell{
+  background-color: #d4d4d4;
+  border-radius: 5px;
+}
+.vintage-digital-sectionedcell {
+  padding: 2rem;
+  text-align: center;
+}
+
+.vintage-vibes-buttonedcell {
+  background-color: black;
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+.digital-cardsedcell {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.digital-cardedcell {
+  text-align: center;
+}
+
+.digital-cardedcell img {
+  width: 600px;
+  height: auto;
+}
+
+.bottom-textedcell {
+  margin-top: 2rem;
+}
+
+.vintage-digital-sectionedcell {
+  background-color: #f4f4f4;
+  padding: 20px;
+  font-family: 'Arial, sans-serif';
+  text-align: center;
+}
+
+.vintage-vibes-buttonedcell, .retro-rhythms-buttonedcell {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.vintage-vibes-buttonedcell:hover, .retro-rhythms-buttonedcell:hover {
+  background-color: #555;
+}
+
+.digital-cardsedcell {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.digital-cardedcell {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 550px;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.digital-cardedcell:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.digital-cardedcell img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.digital-cardedcell p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #333;
+}
+
+.bottom-textedcell {
+  margin-top: 30px;
+}
+
+.bottom-textedcell h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.bottom-textedcell p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .digital-cardsedcell {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .digital-cardedcell {
+    width: 90%;
+  }
+}
+
+.vintage-bg-sectionedcell {
+  background-image: url('../../Assets/edcell/ed-i11.jpg');
+  background-size: cover;
+  
+  position: relative;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlayedcell {
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  max-width: 1000px;
+}
+
+.content-cardedcell {
+  display: flex;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 100%;
+}
+
+.card-textedcell {
+  padding: 20px;
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-textedcell h3 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.card-textedcell p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.discover-buttonedcell {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  align-self: flex-start;
+}
+
+.discover-buttonedcell:hover {
+  background-color: #555;
+}
+
+.card-imageedcell {
+  max-width: 50%;
+}
+
+.card-imageedcell img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .content-cardedcell {
+    flex-direction: column;
+  }
+
+  .card-textedcell, .card-imageedcell {
+    max-width: 100%;
+  }
+
+  .card-imageedcell img {
+    width: 100%;
+  }
+
+  .vintage-bg-sectionedcell {
+    height: auto;
+  }
+}
+  .uniform-imageedcell {
+    max-height:250px;
+    width: 100%;
+    height: 200px; /* Adjust the height as needed */
+    object-fit: cover; /* Ensures the images cover the entire area without distortion */
+  }
+  

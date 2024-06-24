@@ -1,0 +1,179 @@
+GET http://localhost:4000/admin-api/hackathon
+
+###
+GET http://localhost:4000/admin-api/explore
+
+###
+POST http://localhost:4000/admin-api/hackathon/past
+Content-Type: application/json
+
+{
+    "name": "VNR Designathon 2021",
+    "date": "2021-08-20 to 2021-08-21",
+    "location": "Hyderabad, Telangana, India",
+    "venue": "VNR Vignana Jyothi Institute of Engineering and Technology",
+    "type": "Design",
+    "website": "https://vnrvjiet.ac.in/designathon2021/",
+    "winners": [
+        {
+            "team_name": "Creative Minds",
+            "project_name": "Interactive UI/UX for Education",
+            "idea": "An interactive platform for online education with engaging UI/UX.",
+            "members": [
+                "Olivia Brown",
+                "Peter Parker",
+                "Quinn Carter"
+            ]
+        },
+        {
+            "team_name": "Pixel Perfect",
+            "project_name": "Virtual Reality Art Gallery",
+            "idea": "A VR experience showcasing artworks from around the world.",
+            "members": [
+                "Rachel Adams",
+                "Samuel Wilson",
+                "Tina Turner"
+            ]
+        }
+    ]
+}
+
+###
+POST http://localhost:4000/admin-api/hackathon/current
+Content-Type: application/json
+
+{
+    "name": "VNR Designathon 2021",
+    "date": "2021-08-20 to 2021-08-21",
+    "location": "Hyderabad, Telangana, India",
+    "venue": "VNR Vignana Jyothi Institute of Engineering and Technology",
+    "type": "Design",
+    "website": "https://vnrvjiet.ac.in/designathon2021/",
+    "winners": [
+        {
+            "team_name": "Creative Minds",
+            "project_name": "Interactive UI/UX for Education",
+            "idea": "An interactive platform for online education with engaging UI/UX.",
+            "members": [
+                "Olivia Brown",
+                "Peter Parker",
+                "Quinn Carter"
+            ]
+        },
+        {
+            "team_name": "Pixel Perfect",
+            "project_name": "Virtual Reality Art Gallery",
+            "idea": "A VR experience showcasing artworks from around the world.",
+            "members": [
+                "Rachel Adams",
+                "Samuel Wilson",
+                "Tina Turner"
+            ]
+        }
+    ]
+}
+
+###
+POST http://localhost:4000/admin-api/hackathon/upcoming
+Content-Type: application/json
+
+{
+    "name": "VNR Designathon 2021",
+    "date": "2021-08-20 to 2021-08-21",
+    "location": "Hyderabad, Telangana, India",
+    "venue": "VNR Vignana Jyothi Institute of Engineering and Technology",
+    "type": "Design",
+    "website": "https://vnrvjiet.ac.in/designathon2021/",
+    "winners": [
+        {
+            "team_name": "Creative Minds",
+            "project_name": "Interactive UI/UX for Education",
+            "idea": "An interactive platform for online education with engaging UI/UX.",
+            "members": [
+                "Olivia Brown",
+                "Peter Parker",
+                "Quinn Carter"
+            ]
+        },
+        {
+            "team_name": "Pixel Perfect",
+            "project_name": "Virtual Reality Art Gallery",
+            "idea": "A VR experience showcasing artworks from around the world.",
+            "members": [
+                "Rachel Adams",
+                "Samuel Wilson",
+                "Tina Turner"
+            ]
+        }
+    ]
+}
+
+###
+POST http://localhost:4000/admin-api/explore/ideas
+Content-Type: application/json
+
+{
+    "name": "VNR Designathon 2021",
+    "date": "2021-08-20 to 2021-08-21",
+    "location": "Hyderabad, Telangana, India",
+    "venue": "VNR Vignana Jyothi Institute of Engineering and Technology",
+    "type": "Design",
+    "website": "https://vnrvjiet.ac.in/designathon2021/",
+    "winners": [
+        {
+            "team_name": "Creative Minds",
+            "project_name": "Interactive UI/UX for Education",
+            "idea": "An interactive platform for online education with engaging UI/UX.",
+            "members": [
+                "Olivia Brown",
+                "Peter Parker",
+                "Quinn Carter"
+            ]
+        },
+        {
+            "team_name": "Pixel Perfect",
+            "project_name": "Virtual Reality Art Gallery",
+            "idea": "A VR experience showcasing artworks from around the world.",
+            "members": [
+                "Rachel Adams",
+                "Samuel Wilson",
+                "Tina Turner"
+            ]
+        }
+    ]
+}
+
+###
+POST http://localhost:4000/admin-api/explore/alumini
+Content-Type: application/json
+
+{
+    "name": "VNR Designathon 2021",
+    "date": "2021-08-20 to 2021-08-21",
+    "location": "Hyderabad, Telangana, India",
+    "venue": "VNR Vignana Jyothi Institute of Engineering and Technology",
+    "type": "Design",
+    "website": "https://vnrvjiet.ac.in/designathon2021/",
+    "winners": [
+        {
+            "team_name": "Creative Minds",
+            "project_name": "Interactive UI/UX for Education",
+            "idea": "An interactive platform for online education with engaging UI/UX.",
+            "members": [
+                "Olivia Brown",
+                "Peter Parker",
+                "Quinn Carter"
+            ]
+        },
+        {
+            "team_name": "Pixel Perfect",
+            "project_name": "Virtual Reality Art Gallery",
+            "idea": "A VR experience showcasing artworks from around the world.",
+            "members": [
+                "Rachel Adams",
+                "Samuel Wilson",
+                "Tina Turner"
+            ]
+        }
+    ]
+}
