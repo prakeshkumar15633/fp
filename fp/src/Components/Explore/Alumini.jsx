@@ -121,7 +121,7 @@ const AlumniData = () => {
     const [uniqueDomains, setUniqueDomains] = useState([]);
 
     async function func() {
-        let resObj = await axios.get('http://localhost:4000/admin-api/explore')
+        let resObj = await axios.get('https://fp-two.vercel.app/admin-api/explore')
         if (resObj != null) {
             setAlumniData(resObj.data.data);
             setFilteredData(resObj.data.data);

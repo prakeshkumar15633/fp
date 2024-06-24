@@ -6,7 +6,7 @@ const Upcoming = () => {
     const [hackathons, setHackathons] = useState({ upcoming: [] });
 
     async function func() {
-        let resObj = await axios.get('http://localhost:4000/admin-api/hackathon')
+        let resObj = await axios.get('https://fp-two.vercel.app/admin-api/hackathon')
         if (resObj != null) {
             setHackathons(resObj.data.data)
         }
