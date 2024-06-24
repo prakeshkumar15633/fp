@@ -5,8 +5,8 @@
     ],
     "routes": [
         {
-          "src": "/(.*)",
-          "dest": "/"
+          "src": "/admin-api/(.*)",
+          "dest": "/admin-api"
         }
     ]
   }
