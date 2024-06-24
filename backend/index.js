@@ -32,13 +32,13 @@ mongoClient.connect(process.env.DB_URL)
 })
 .catch((err)=>console.log('Error in db connection',err))
 
-app.get('/',(req,res)=>{
-    res.send("hello")
-})
-
-// app.use((req,res,next)=>{
-//     res.sendFile(path.join(__dirname,'../frontend/build/index.html'))
+// app.get('/',(req,res)=>{
+//     res.send("hello")
 // })
+
+app.use((req,res,next)=>{
+    res.sendFile(path.join(__dirname,'../frontend/build/index.html'))
+})
 
 app.get('/hackathon',async(req,res)=>{
     let resObj=await hackathonCollection.findOne()
