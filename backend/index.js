@@ -15,12 +15,15 @@ app.use(cors({
 // app.use(exp.static(path.join(__dirname,'../fp/build')))
 // app.use(exp.json())
 
+let hackathonCollection
+let exploreCollection
+
 mongoClient.connect(process.env.DB_URL)
 .then((client)=>{
     const db=client.db('fpdb')
 
-    const hackathonCollection=db.collection('hackathonCollection')
-    const exploreCollection=db.collection('exploreCollection')
+    hackathonCollection=db.collection('hackathonCollection')
+    exploreCollection=db.collection('exploreCollection')
 
     app.set('hackathonCollection',hackathonCollection)
     app.set('exploreCollection',exploreCollection)
