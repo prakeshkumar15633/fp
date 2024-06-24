@@ -7,7 +7,7 @@ const path=require('path')
 const { config } = require('dotenv')
 
 app.use(cors({
-    origin: ["https://fp-frontend-indol.vercel.app/"],
+    origin: ["https://fp-frontend-indol.vercel.app"],
     methods: ["POST","GET"],
     credentials: true
 }))
