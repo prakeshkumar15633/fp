@@ -1,9 +1,16 @@
 const exp=require('express')
 const app=exp()
+const cors=require('cors')
 require('dotenv').config()
 const mongoClient=require('mongodb').MongoClient
 const path=require('path')
 const { config } = require('dotenv')
+
+app.use(cors({
+    origin: ["https://fp-virid.vercel.app/"],
+    methods: ["POST","GET"],
+    credentials: true
+}))
 
 app.use(exp.static(path.join(__dirname,'../fp/build')))
 app.use(exp.json())
