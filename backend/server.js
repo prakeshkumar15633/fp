@@ -12,10 +12,6 @@ app.use(cors({
     credentials: true
 }))
 
-app.use('/',(req,res)=>{
-    res.send("Hello")
-})
-
 // app.use(exp.static(path.join(__dirname,'../fp/build')))
 // app.use(exp.json())
 
