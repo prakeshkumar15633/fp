@@ -119,7 +119,7 @@ const AlumniData = () => {
     const [uniqueYears, setUniqueYears] = useState([]);
     const [uniqueBranches, setUniqueBranches] = useState([]);
     const [uniqueDomains, setUniqueDomains] = useState([]);
-
+    axios.defaults.withCredentials = true;
     async function func() {
         let resObj = await axios.get('https://fp-two.vercel.app/admin-api/explore')
         if (resObj != null) {

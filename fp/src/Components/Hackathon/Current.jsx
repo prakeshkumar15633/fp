@@ -4,7 +4,7 @@ import axios from 'axios';
 
 const CurrentHackathons = () => {
     const [hackathons, setHackathons] = useState({ current: [] });
-
+    axios.defaults.withCredentials = true;
     async function func() {
         let resObj = await axios.get('https://fp-two.vercel.app/admin-api/hackathon')
         if (resObj != null) {
